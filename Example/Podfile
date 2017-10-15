@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OptimoveSDK_Example' do
+  pod 'OptimoveSDK', :path => '../'
+
+  target 'OptimoveSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
