@@ -1,0 +1,6 @@
+framework module Pods_OptimoveSDK_Example {
+  umbrella header "Pods-OptimoveSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

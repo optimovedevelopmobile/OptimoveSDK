@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'OptimoveSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of OptimoveSDK.'
+  s.summary          = 'OptimoveSDK short summary.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,29 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Install OptimoveSDK to keep track and message yoour users
                        DESC
 
-  s.homepage         = 'https://github.com/optimove.develop.mobile@gmail.com/OptimoveSDK'
+  s.homepage         = 'https://github.com/optimovedevelopmobile/optimoveSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'optimove.develop.mobile@gmail.com' => 'elkana_o@optimove.com' }
-  s.source           = { :git => 'https://github.com/optimove.develop.mobile@gmail.com/OptimoveSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.source           = { :git => 'https://github.com/optimovedevelopmobile/optimoveSDK.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '10.0'
 
-  s.source_files = 'OptimoveSDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'OptimoveSDK' => ['OptimoveSDK/Assets/*.png']
-  # }
+s.source_files = 'OptimoveSDK/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# s.resource_bundles = {
+#   'OptimoveSDK' => ['OptimoveSDK/Assets/*.png']
+# }
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+# s.frameworks = 'UIKit', 'MapKit'
+#s.dependency 'Firebase/Core'
+#s.dependency 'Firebase/Messaging'
+#s.dependency 'Firebase/DynamicLinks'
+#s.dependency 'OptimovePiwikTracker'
+
 end

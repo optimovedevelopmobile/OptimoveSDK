@@ -1,0 +1,22 @@
+{
+  "name": "OptimoveSDK",
+  "version": "0.1.0",
+  "summary": "A short description of OptimoveSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/optimove.develop.mobile@gmail.com/OptimoveSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "optimove.develop.mobile@gmail.com": "elkana_o@optimove.com"
+  },
+  "source": {
+    "git": "https://github.com/optimove.develop.mobile@gmail.com/OptimoveSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OptimoveSDK/Classes/**/*"
+}
